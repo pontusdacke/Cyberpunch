@@ -1,0 +1,15 @@
+The player.scml file has the following animation names:
+idle
+walk
+slide
+crouch_down
+stand_up
+crouch_idle
+jump_start
+fall_start
+jump_loop
+hit_0
+flip
+
+In order to change the current animation to one of these, within the character or player class call
+animator.ChangeAnimation("animationName");
